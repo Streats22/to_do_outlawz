@@ -13,7 +13,7 @@
                                 wire:submit.prevent="$refresh"
                                 wire:confirm="Weer je zeker dat je dit item {{$item->name}} wilt verwijderen?"
                                 class="bg-red-500 text-white p-2 rounded-lg ">
-                            <x-icons.trash />
+                            <x-Icons.trash />
                         </button>
                     </div>
 
